@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="imagenes/icono.ico" />
+    <!-- <meta name="robots" content="noindex" /> -->
+    <title>Camilo López</title>
+  </head>
+  <body>
+    <!--***************Inicio Header***************-->
+
+    <header class="header" id="header">
+      <nav class="header__nav">
+        <div class="glitch-wrapper">
+          <div class="glitch" data-glitch="Camilo López">Camilo López</div>
+        </div>
+        <div class="header__nav__items">
+          <ul class="header__nav__items-links">
+            <li><a href="#Sobre-mi">Sobre Mí</a></li>
+            <li>
+              <a href="#Mis-proyectos">Mis Proyectos</a>
+            </li>
+            <!-- <li><a href="#contactame">Contáctame</a></li> -->
+          </ul>
+        </div>
+      </nav>
+
+      <!--***************Header Responsive desing***************-->
+
+      <nav class="header__nav-responsive">
+        <div class="glitch-wrapper" id="containerNombre">
+          <div class="glitch" id="nombre" data-glitch="Camilo López">
+            Camilo López
+          </div>
+        </div>
+        <div class="header__nav-responsive-menu">
+          <div class="header__nav-responsive-menu__button">
+            <img
+              src="imagenes/menu.png"
+              alt="Abrir menu"
+              title="Abrir Menu"
+              class="header__nav-responsive-menu__button-img-1"
+            />
+            <img
+              src="imagenes/cerrar.png"
+              alt="Cerrar menu"
+              title="Cerrar Menu"
+              class="header__nav-responsive-menu__button-img-2 hidden"
+            />
+          </div>
+        </div>
+        <div class="header__nav-responsive-menu__items toggle">
+          <ul class="header__nav-responsive-menu__items-ul">
+            <li><a href="#Sobre-mi">Sobre mí</a></li>
+            <li>
+              <a href="#Mis-proyectos">Mis proyectos</a>
+            </li>
+            <!-- <li><a href="#contactame">Contáctame</a></li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--***************Final Header***************-->
+
+    <div class="slider">
+      <div class="slider__info">
+        <div data-aos="fade-down">
+          <h1 class="slider__info-h1">Camilo López</h1>
+          <h2 class="slider__info-h2">Soy un <b>programador web.</b></h2>
+        </div>
+      </div>
+      <div class="slider__img">
+          <img
+            src="imagenes/FotoDePerfil.png"
+            alt="Slider"
+            srcset=""
+            class="slider__img-imagen"
+            data-aos="fade-up"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="slider-border"></div>
+    <article class="article">
+      <section class="article__section-sobre-nosotros" id="Sobre-mi">
+        <h2 class="timelineH2" data-aos="flip-down">Sobre mí</h2>
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="content" data-aos="fade-right">
+                <h3>¿Como empezó todo?</h3>
+                <p>
+                  Soy un joven que se interesó en el mundo de la programación
+                  desde los catorce años, a medida que transcurrió el tiempo he
+                  ido <b>creando y realizando proyectos</b> que han mejorado mis
+                  habilidades como programador, luego de eso decidí hacer cursos
+                  muchos más extensos y especializados sobre el Frond-end de las
+                  páginas webs, donde aprendí mucho más sobre
+                  <b>HTML, CSS, JavaScript</b>, en la actualidad gracias a esto,
+                  he hecho cursos de <b>más de 600 horas</b> de contenido sin
+                  contar ejercicios, proyectos, etc.
+                </p>
+              </div>
+              <div class="time" data-aos="fade-left">
+                <h4>Información sobre mí</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content" data-aos="fade-right">
+                <h3>Las tecnologías que manejo.</h3>
+                <p>
+                  Cuento con habilidades y conocimiento en los siguientes
+                  lenguajes y tecnologías de <b>Frond-end:</b> HTML 5, CSS 3,
+                  ES6 o JavaScript, Bootstrap, React, jQuery, Redux, Sass.
+                </p>
+              </div>
+              <div class="time" data-aos="fade-left">
+                <h4>Tecnologías</h4>
+              </div>
+            </li>
+
+            <li>
+              <div class="content" data-aos="fade-right">
+                <h3>Mis certificaciones</h3>
+                <p>
+                  En la actualidad cuento con las siguientes certificaciones,
+                  pero aún sigo haciendo cursos para mejorar mi talento como
+                  programador y <b>estar actualizado en todas las tecnologías.</b>
+                  <br>
+                  <a href="https://www.freecodecamp.org/certification/Camilo__Lopez/javascript-algorithms-and-data-structures" title="JavaScript" target="_blank">Certificación de JavaScript.</a>
+                  <br>
+                  <a href="https://www.freecodecamp.org/espanol/certification/Camilo__Lopez/front-end-development-libraries" title="Librerias de desarrollo" target="_blank">Certificación de librerías de desarrollo.</a>
+                </p>
+              </div>
+              <div class="time" data-aos="fade-left">
+                <h4>Certificados o diplomas</h4>
+              </div>
+            </li>
+            <div style="clear: both"></div>
+          </ul>
+        </div>
+      </section>
+      <section class="article__section-proyectos">
+        <div class="article__section-proyectos__separador" id="Mis-proyectos">
+          <h2 data-aos="flip-down">Mis proyectos</h2>
+        </div>
+        <div class="article__section-proyectos__container-item">
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Banco.png" class="card-img-top" alt="Cajero">
+            <div class="card-body">
+              <h5 class="card-title">Cajero</h5>
+              <p class="card-text">Acá realizo un algoritmo que simula al de un cajero en el cual nos devuelve la cantidad estipulada en pesos colombianos y tiene un límite de dinero.</p>
+              <a href="Proyectos/Cajero/cajero.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Carga de contenido estilo red Social.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cargar estilo de red social.</h5>
+              <p class="card-text">Ejecute un proyecto para aprender como hacer “lazy load” de manera nativa con JavaScript, CSS y HTML.</p>
+              <a href="Proyectos/Cargar estilo red social/index.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Chat en tiempo real.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chat real time.</h5>
+              <p class="card-text">Es mi proyecto favorito, ya que llevó mucho trabajo diseñar un chat a tiempo real sin uso de Back-end, básicamente si abres la misma página en dos ventanas pueden enviarse mensajes entre ellas.</p>
+              <a href="Proyectos/Chat real time/index.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Juez.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Juez.</h5>
+              <p class="card-text">Es un algoritmo básico que toma una serie de parámetros para entregarte la posibilidad de que alguien haya cometido un delito.</p>
+              <a href="Proyectos/Juez/juez.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Notas de estudiante.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Notas de estudiantes.</h5>
+              <p class="card-text">Es un ejercicio el cual utilicé para poner en práctica la librería de Axios, en el cual tengo una fuente de datos que es un archivo de texto, de este saco la información de los estudiantes aprobados y reprobados.</p>
+              <a href="Proyectos/Notas de estudiantes/index.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" style="width: 18rem;">
+            <img src="imagenes/Rejoj-texturizado.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Reloj-texturizado.</h5>
+              <p class="card-text">Acá practico la API de “Drag and Drop” o arrastrar y soltar, es algo muy básico, pero fue la práctica para esta API.</p>
+              <a href="Proyectos/Reloj-Texturizado/reloj.html" class="btn card-btn">Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="contacto" id="contactame">
+        <form action="correos.php" method="POST" class="contacto__form">
+          <h3 class="contacto__form-h3">Contáctame!!</h3>
+          <div class="contacto__form-containerInputs">
+            <input
+              type="text"
+              name="name"
+              id=""
+              class="contacto__form-nombre"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              name="asunto"
+              id=""
+              class="contacto__form-asunto"
+              placeholder="Asunto"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id=""
+              class="contacto__form-email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <textarea
+            name="mensaje"
+            id=""
+            cols="30"
+            rows="10"
+            class="contacto__form-text"
+            placeholder="Comunicanos tus ideas, lo que necesitas y los servicios que quieres contratar"
+            required
+          ></textarea>
+          <button type="submit" class="contacto__form-button" name="enviar">
+            Enviar
+          </button>
+        </form>
+      </section>
+    </article> -->
+    <footer class="footer">
+      <div class="footer__Contacto">
+        <h3>Redes sociles</h3>
+        <br />
+        <div>
+          <!-- <a href="#" title="Facebook" class="footer__Contacto-a"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a> -->
+          <a href="https://www.instagram.com/camilo__lp15/" title="Instagram" class="footer__Contacto-a"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="https://twitter.com/Camilo__lp" title="Twitter" class="footer__Contacto-a"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="https://github.com/CamiloLopez15" title="Github" class="footer__Contacto-a"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </div>
+        <br />
+        <p class="footer__Contacto-p">
+          camilolopez1506@gmail.com<br />Hablemos!!
+        </p>
+      </div>
+      <div class="footer__info">
+        <a href="#header" title="Inicio"
+          ><ion-icon name="caret-up-outline"></ion-icon
+        ></a>
+        <div>
+          <small class="footer__info-copyright"
+            >©Copyright Camilo López 2022.</small
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+</html>
